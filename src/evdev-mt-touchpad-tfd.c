@@ -14,7 +14,7 @@ performed, if the fingers remain stationary */
 #define DEFAULT_DRAG3_INITIAL_DELAY ms2us(350)
 /* The time window during which you can continue a 3 finger drag by reapplying 
 three fingers. ~700-800 ms seems ideal. */
-#define DEFAULT_DRAG3_WAIT_FOR_RESUME_DURATION ms2us(720)
+#define DEFAULT_DRAG3_WAIT_FOR_RESUME_DURATION ms2us(200)
 /* The speed at which the *released* finger needs to travel for the drag to 
 continue with a single finger */
 #define DEFAULT_DRAG3_1F_CONTINUATION_SPEED 40 /* mm/s */
